@@ -6,7 +6,7 @@
 
 ## What more is here?
 So you might be wondering:
->What more can be found here that is not in the GameDev.Tv repo? 
+>What more can be found here that is not in the [GameDev.Tv repo](https://gitlab.com/GameDevTV/UnityMultiplayer/RealTimeStrategy)? 
 
 Good question. I have followed the course closely all the way to the end, so you 
 should be able to find everything from the course somehow represented in my code.
