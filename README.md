@@ -1,8 +1,6 @@
 # DesertTanks
  DesertTanks is a Real-Time Strategy multiplayer project based on
- [multiplayer course by Gamedev.TV](https://www.gamedev.tv/p/unity-multiplayer) 
- with code available at 
- [their GitLab](https://gitlab.com/GameDevTV/UnityMultiplayer/RealTimeStrategy).
+ [multiplayer course by Gamedev.TV](https://www.gamedev.tv/p/unity-multiplayer).
 
 ## What more is here?
 So you might be wondering:
