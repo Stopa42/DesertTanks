@@ -20,7 +20,12 @@ course at all. These changes include but are not limited to:
   * Thinner classes. I have separated many components into multiple ones to better respect the single responsibility principle. 
     The [original RTSPlayer.cs](https://gitlab.com/GameDevTV/UnityMultiplayer/RealTimeStrategy/-/blob/master/Assets/Scripts/Networking/RTSPlayer.cs) 
     class has 275 lines and handles everything from registering spawned units and buildings, over choosing player color to validating and executing new building placement. 
-    In my solution this class is split into RTSPlayer.cs, PartyMember.cs, BuilderBehaviour.cs, ResourceHandler.cs, each with less than 100 lines of code.
+    In my solution this class is split into 
+    [RTSPlayer.cs](https://github.com/Stopa42/DesertTanks/blob/main/DesertTanks_Unity/Assets/Scripts/Player/RTSPlayer.cs),
+    [PartyMember.cs](https://github.com/Stopa42/DesertTanks/blob/main/DesertTanks_Unity/Assets/Scripts/Player/PartyMember.cs), 
+    [BuilderBehaviour.cs](https://github.com/Stopa42/DesertTanks/blob/main/DesertTanks_Unity/Assets/Scripts/Player/BuilderBehaviour.cs), 
+    [ResourceHandler.cs](https://github.com/Stopa42/DesertTanks/blob/main/DesertTanks_Unity/Assets/Scripts/Player/ResourceHandler.cs), 
+    each with less than 100 lines of code.
   * The separation and abstraction mentioned above lead to easy implementation of additional features such as:
     * Destructible terrain
     * Player can build more bases
@@ -33,3 +38,5 @@ Sadly, no. I mean, yes, kind of, but not really...
 What I am trying to say is that you can definitely download it and play it, but it will probably not be that much fun. 
 Throughout the course I have focused mostly on the core code and thus there is very little content and it is not balanced in any way.
 Hopefully, I will be able to build up on it and make it into a real proper game some time in the future!
+
+[screenshot]: https://github.com/Stopa42/DesertTanks/blob/main/screenshot.png "Screenshot of DesertTanks"
