@@ -18,7 +18,6 @@ namespace RTSTutorial
 
         public GameObject BuildingPreview => _buildingPreview;
         public Sprite Icon => _icon;
-        public BoxCollider PreviewCollider { get; private set; }
 
         public override void OnStartServer()
         {
@@ -39,11 +38,6 @@ namespace RTSTutorial
         {
             if (!hasAuthority) return;
             AuthorityOnBuildingUnspawned?.Invoke(this);
-        }
-
-        private void Awake()
-        {
-            PreviewCollider = _buildingPreview.GetComponent<BoxCollider>();
         }
     }
 }
