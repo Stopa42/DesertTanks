@@ -39,4 +39,4 @@ What I am trying to say is that you can definitely download it and play it, but 
 Throughout the course I have focused mostly on the core code and thus there is very little content and it is not balanced in any way.
 Hopefully, I will be able to build up on it and make it into a real proper game some time in the future!
 
-[screenshot]: https://github.com/Stopa42/DesertTanks/blob/main/screenshot.png "Screenshot of DesertTanks"
+![screenshot](https://github.com/Stopa42/DesertTanks/blob/main/screenshot.png "Screenshot of DesertTanks")
